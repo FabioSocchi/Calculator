@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="386.0" prefWidth="272.0" style="-fx-background-color: #1d1d1d1;" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.calculator1.PrimaryController">
+   <children>
+      <TextField fx:id="display" layoutX="18.0" layoutY="28.0" prefHeight="58.0" prefWidth="236.0" />
+      <Button fx:id="add" layoutX="211.0" layoutY="128.0" onAction="#handeAction" prefHeight="26.0" prefWidth="42.0" snapToPixel="false" style="-fx-background-color: #1d1d1d1;" text="+" />
+      <Button fx:id="sub" layoutX="211.0" layoutY="154.0" onAction="#handeAction" prefHeight="26.0" prefWidth="42.0" snapToPixel="false" text="-" />
+      <Button fx:id="multi" layoutX="211.0" layoutY="180.0" onAction="#handeAction" prefHeight="26.0" prefWidth="42.0" snapToPixel="false" style="-fx-background-color: #1d1d1d1;" text="x" />
+      <Button fx:id="divi" layoutX="211.0" layoutY="206.0" onAction="#handeAction" prefHeight="26.0" prefWidth="42.0" snapToPixel="false" style="-fx-background-color: #1d1d1d1;" text=":" />
+      <Button fx:id="equal" layoutX="204.0" layoutY="323.0" onAction="#handeAction" prefHeight="39.0" prefWidth="55.0" snapToPixel="false" style="-fx-background-color: #1d1d1d1;" text="=" />
+      <Button fx:id="one" layoutX="18.0" layoutY="131.0" onAction="#handeAction" prefHeight="46.0" prefWidth="55.0" snapToPixel="false" style="-fx-background-color: #1d1d1d1;" text="1" />
+      <Button fx:id="two" layoutX="73.0" layoutY="131.0" onAction="#handeAction" prefHeight="46.0" prefWidth="55.0" snapToPixel="false" style="-fx-background-color: #1d1d1d1;" text="2" />
+      <Button fx:id="three" layoutX="128.0" layoutY="131.0" onAction="#handeAction" prefHeight="46.0" prefWidth="55.0" snapToPixel="false" style="-fx-background-color: #1d1d1d1;" text="3" />
+      <Button fx:id="four" layoutX="18.0" layoutY="183.0" onAction="#handeAction" prefHeight="46.0" prefWidth="55.0" snapToPixel="false" style="-fx-background-color: #1d1d1d1;" text="4" />
+      <Button fx:id="five" layoutX="73.0" layoutY="183.0" onAction="#handeAction" prefHeight="46.0" prefWidth="55.0" snapToPixel="false" style="-fx-background-color: #1d1d1d1;" text="5" />
+      <Button fx:id="six" layoutX="128.0" layoutY="183.0" onAction="#handeAction" prefHeight="46.0" prefWidth="55.0" snapToPixel="false" style="-fx-background-color: #1d1d1d1;" text="6" />
+      <Button fx:id="seven" layoutX="18.0" layoutY="235.0" onAction="#handeAction" prefHeight="46.0" prefWidth="55.0" snapToPixel="false" style="-fx-background-color: #1d1d1d1;" text="7" />
+      <Button fx:id="eight" layoutX="73.0" layoutY="235.0" onAction="#handeAction" prefHeight="46.0" prefWidth="55.0" snapToPixel="false" style="-fx-background-color: #1d1d1d1;" text="8" />
+      <Button fx:id="nine" layoutX="128.0" layoutY="235.0" onAction="#handeAction" prefHeight="46.0" prefWidth="55.0" snapToPixel="false" style="-fx-background-color: #1d1d1d1;" text="9" />
+      <Button fx:id="zero" layoutX="73.0" layoutY="297.0" onAction="#handeAction" prefHeight="46.0" prefWidth="55.0" snapToPixel="false" style="-fx-background-color: #1d1d1d1;" text="0" />
+      <Button fx:id="clear" layoutX="204.0" layoutY="245.0" onAction="#handeAction" prefHeight="20.0" prefWidth="55.0" snapToPixel="false" style="-fx-background-color: #1d1d1d1;" text="Clear" />
+   </children>
+</AnchorPane>
